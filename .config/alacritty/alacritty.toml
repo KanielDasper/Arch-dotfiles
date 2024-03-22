@@ -1,0 +1,37 @@
+# KanielDasper/alacritty.toml
+live_config_reload = true
+
+# Themes
+import = [
+   #"~/.config/alacritty/catppuccin/catppuccin-macchiato.toml" 
+   #"~/.config/alacritty/catppuccin/catppuccin-latte.toml" 
+   "~/.config/alacritty/catppuccin/catppuccin-frappe.toml" 
+   #"~/.config/alacritty/catppuccin/catppuccin-mocha.toml" 
+]
+
+[env]
+TERM = "xterm-256color" 
+
+[window]
+dynamic_padding = false 
+opacity = 0.9
+
+# Font-sizes and types
+[font]
+size = 12
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+style = "Regular"
+
+[font.bold]
+family = "JetBrainsMono Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font"
+style = "Italic"
+
+# Set terminal history
+[scrolling]
+history = 15000
