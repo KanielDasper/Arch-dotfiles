@@ -1,0 +1,8 @@
+# dwm
+dwm-6.4/*
+!dwm-6.4/config.def.h
+!dwm-6.4/patches
+
+# dwm-bar
+dwm-bar/*
+!dwm-bar/dwm_bar.sh
