@@ -1,6 +1,7 @@
 # Current Environment
 
-![Uploading img.png…]()
+![img](https://github.com/KanielDasper/Arch-dotfiles/assets/112337013/d546ed07-2510-49f2-9767-656887c6bffc)
+
 
 **Disclaimer**: *The following guide is an exerpt from the ArchWiki wherein some steps have been modified to fit my own likings and installationpreferences. This worked for me though, so maybe this guide may suit you more than what is explained on the wiki.*
 
