@@ -66,11 +66,14 @@ static const char *mutevol[] = { "amixer", "set", "Master", "toggle", NULL };
 /* custom commands */
 static const char *rofi[] = {"rofi", "-show", "drun", "-show-emojis", NULL};
 static const char *termcmd[]  = { "alacritty", NULL };
+static const char *powermenu[] = {"powermenu_t1", NULL};
+static const char *powerrofi[] = {"launcher_t3", NULL};
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
 	/* XK_p replace dmenucmnd with custom rofi command for searching stuff*/
-	{ MODKEY,                       XK_space,      spawn,          {.v = rofi } },
+	{ MODKEY,                       XK_space,      spawn,          {.v = powerrofi } },
+	{ MODKEY|ShiftMask,             XK_space,      spawn,          {.v = powermenu } },
 	/* termcmd is edited to have default term be alacritty (line 68) */
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
