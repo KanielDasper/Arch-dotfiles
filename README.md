@@ -1,7 +1,5 @@
 # My Current Environment
 
-![dekstop-env](https://github.com/KanielDasper/arch-linux-dotfiles/assets/112337013/2c569fbc-f31b-46d8-a1fb-90a01121e107)
-
 **Disclaimer**: *The following guide is an exerpt from the ArchWiki wherein some steps have been modified to fit my own likings and installationpreferences. This worked for me though, so maybe this guide may suit you more than what is explained on the wiki.*
 
 **For dot-files**: *copy the contents of st/config.def.h and dwm/config.def.h which contain the cosmetic enchancements to the desktop*
