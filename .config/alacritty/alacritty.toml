@@ -5,8 +5,8 @@ live_config_reload = true
 import = [
    #"~/.config/alacritty/catppuccin/catppuccin-macchiato.toml" 
    #"~/.config/alacritty/catppuccin/catppuccin-latte.toml" 
-   "~/.config/alacritty/catppuccin/catppuccin-frappe.toml" 
-   #"~/.config/alacritty/catppuccin/catppuccin-mocha.toml" 
+   #"~/.config/alacritty/catppuccin/catppuccin-frappe.toml" 
+   "~/.config/alacritty/catppuccin/catppuccin-mocha.toml" 
 ]
 
 [env]
@@ -14,7 +14,8 @@ TERM = "xterm-256color"
 
 [window]
 dynamic_padding = false 
-opacity = 0.9
+opacity = 0.5
+padding = { x = 5, y = 5 }
 
 # Font-sizes and types
 [font]

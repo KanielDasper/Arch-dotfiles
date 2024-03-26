@@ -111,8 +111,8 @@ static const Key keys[] = {
 	TAGKEYS(                        XK_9,                      8)
 	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
   /* setting modkeys for volume up, down and mute  */
-	{ MODKEY,                       XK_F3,    spawn,          {.v = upvol   } },
-	{ MODKEY,                       XK_F2,    spawn,          {.v = downvol } },
+	{ MODKEY,                       XK_F3,     spawn,          {.v = upvol   } },
+	{ MODKEY,                       XK_F2,     spawn,          {.v = downvol } },
 	{ MODKEY,                       XK_F1,     spawn,          {.v = mutevol } },
 };
 
