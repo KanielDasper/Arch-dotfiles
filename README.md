@@ -345,8 +345,15 @@ $ grub-install
 after you have installed the bootloader you need to make a config file for the grub bootloader with the following command:
 
 ```bash
-$ grub-mkconfig -O /dev/grub/grub.cfg
+$ grub-mkconfig -o /boot/grub/grub.cfg
 ```
+
+also enable the NetworkManager package with:
+
+```bash
+$ systemctl enable NetworkManager
+```
+
 
 ### **Reboot**
 Exit the chroot environment by typing exit or pressing Ctrl+d.
