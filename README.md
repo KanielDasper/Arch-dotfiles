@@ -189,7 +189,7 @@ $ mkdir -p /mnt/boot/efi
 Afterwards, mount sda1 in the newly created directory: 
 
 ```
-$ mount /dev/sda1 /dev/boot/efi
+$ mount /dev/sda1 /mnt/boot/efi
 ```
 
 If you created a swap volume, enable it with swapon(8):
@@ -324,7 +324,7 @@ $ passwd
 Users should be created under the group *wheel* wherein their sudo priviliges will be granted:
 
 ```bash
-$ adduser -m -G wheel -s myusername
+$ adduser -m -G wheel -s /bin/bash myusername 
 ```
 This creates the user and password for the user-account can be created similiarly to the root password with *passwd myusername*
 
